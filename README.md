@@ -1,5 +1,5 @@
 # perpusku-api
-### ( This project is still in progress 💪 )
+### ( This project is still on progress 💪 )
 API for my personal project perpusku
 
 ## Technologies
