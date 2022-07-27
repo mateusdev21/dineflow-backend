@@ -10,6 +10,7 @@ API for my personal project perpusku
 ## Endpoints
 
 * users
+
 |      Path      |  Method  |    Description    |
 | -------------- | -------- | ----------------- |
 | /api/users     |  GET     | Get user list     |
