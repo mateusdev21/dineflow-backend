@@ -6,3 +6,9 @@ API for my personal project perpusku
 * Express JS (Back-end Framework)
 * MongoDB (Database)
 * Mongoose (Library to model the application data)
+
+## Endpoints
+/users
+|  Path  | Method |  Description   |
+| ------ | ------ | -------------- |
+| /users |  GET   | Get users list |
