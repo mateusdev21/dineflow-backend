@@ -4,8 +4,29 @@
   },
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.4.7"
-  }
+    "mongodb": "^4.8.1",
+    "mongoose": "^5.13.14"
+  },
+  "name": "perpusku-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusdev21/perpusku-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusdev21/perpusku-api/issues"
+  },
+  "homepage": "https://github.com/mateusdev21/perpusku-api#readme"
 }
