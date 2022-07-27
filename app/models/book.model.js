@@ -10,7 +10,7 @@ module.exports = (mongoose) => {
             rilis: String,
             bahasa: String,
             halaman : String,
-            stok: Int32Array
+            stok: Number
         }
     );
 
