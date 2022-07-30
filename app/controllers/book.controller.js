@@ -13,7 +13,7 @@ exports.findAll = (req, res) => {
 };
 
 exports.findOne = (req, res) => {
-    const id = req.params.id;
+    let id = req.params.id;
 
     Book.findById(id)
         .then((result) => {
@@ -26,7 +26,7 @@ exports.findOne = (req, res) => {
 };
 
 exports.create = (req, res) => {
-    const book = new Book({
+    let book = new Book({
         kode: req.body.kode,
         judul: req.body.judul,
         penulis: req.body.penulis,

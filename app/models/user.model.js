@@ -7,6 +7,9 @@ module.exports = (mongoose) => {
             lastname: String,
             level: String,
             email: String,
+        },
+        {
+            timestamps: true,
         }
     );
 
